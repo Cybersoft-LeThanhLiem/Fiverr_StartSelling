@@ -1,0 +1,113 @@
+/* GLOBAL */
+
+a:hover {
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+    padding: 0.7rem 0;
+}
+
+header .search-bar {
+    position: relative;
+}
+
+header .search-bar .fa-search {
+    position: absolute;
+    left: 8px;
+}
+
+header .search-bar input {
+    padding: 7px 7px 7px 28px;
+}
+
+header #join {
+    color: #1dbf73;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+}
+
+header #join:hover {
+    color: white;
+    background: #19a463;
+    border-color: transparent;
+}
+
+/* HERO */
+
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero video {
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+}
+
+.hero__caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 0 -1px 2px rgb(0 0 0 / 30%);
+}
+
+.hero__caption h2 {
+    font-size: 50px;
+    line-height: 110%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.hero__caption h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 750px;
+    margin: 5px auto 15px;
+}
+
+.hero__caption a {
+    background-color: #1dbf73;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 15px 35px;
+    margin: 0;
+    display: inline-block;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.hero__caption a:hover {
+    color: #1dbf73;
+    background-color: #3fca89;
+}
+
+.hero__stats {
+    background-color: rgba(255,255,255,.3);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px 0;
+}
+
+.hero__stats li {
+    list-style-type: none;
+    width: calc(100% / 3);
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.hero__stats li strong {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
