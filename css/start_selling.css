@@ -4,6 +4,25 @@ a:hover {
     text-decoration: none;
 }
 
+.btn-standard {
+    background-color: #1dbf73;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 15px 35px;
+    margin: 0;
+    display: inline-block;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.btn-standard:hover {
+    color: #fff;
+    background-color: #3fca89;
+}
+
 /* HEADER */
 
 header {
@@ -46,6 +65,7 @@ header #join:hover {
     width: 100%;
     height: 580px;
     object-fit: cover;
+    vertical-align: middle;
 }
 
 .hero__caption {
@@ -72,25 +92,6 @@ header #join:hover {
     margin: 5px auto 15px;
 }
 
-.hero__caption a {
-    background-color: #1dbf73;
-    font-size: 16px;
-    line-height: 16px;
-    font-weight: 700;
-    color: #fff;
-    border: 1px solid transparent;
-    padding: 15px 35px;
-    margin: 0;
-    display: inline-block;
-    border-radius: 3px;
-    box-sizing: border-box;
-}
-
-.hero__caption a:hover {
-    color: #1dbf73;
-    background-color: #3fca89;
-}
-
 .hero__stats {
     background-color: rgba(255,255,255,.3);
     position: absolute;
@@ -110,4 +111,70 @@ header #join:hover {
     font-size: 40px;
     font-weight: 400;
     text-transform: uppercase;
+}
+
+/* COMMUNITY */
+
+.community__item {
+    height: 305px;
+    background-position: 50% 50%;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.community__item h6 {
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    z-index: 1;
+    transition: opacity .3s;
+}
+
+.community__item.designer {
+    background-image: url('../img/designer.jpg');
+}
+
+.community__item.developer {
+    background-image: url('../img/developer.png');
+}
+
+.community__item.writer {
+    background-image: url('../img/writer.png');
+}
+
+.community__item.video-editor {
+    background-image: url('../img/video-editor.jpg');
+}
+
+.community__item.musician {
+    background-image: url('../img/musician.jpg');
+}
+
+.community__item.voiceover {
+    background-image: url('../img/voiceover.jpg');
+}
+
+.community__item.marketer {
+    background-image: url('../img/marketer.png');
+}
+
+.community__item.cta div {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.community__item.cta h3:before {
+    content: '';
+    background: transparent url('../img/sprite-start-selling.svg') no-repeat -300px 0;
+    background-size: 350px;
+    display: block;
+    width: 50px;
+    height: 36px;
+    margin: 0 auto;
 }
