@@ -178,3 +178,31 @@ header #join:hover {
     height: 36px;
     margin: 0 auto;
 }
+
+/* HOW-IT-WORKS */
+
+.how {
+    background: #f7f7f7;
+}
+
+.how h3 {
+    color: #555;
+}
+
+.how h3::before {
+    background: transparent url('../img/sprite-start-selling.svg') no-repeat 0 0;
+    background-size: 350px;
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+}
+
+.how .create-gig::before {
+    background-position: -200px 0;
+}
+
+.how .deliver::before {
+    background-position: -250px 0;
+}
