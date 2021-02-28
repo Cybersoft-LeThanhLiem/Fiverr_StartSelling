@@ -324,6 +324,34 @@ header #join:hover {
     padding: 0 15px;
 }
 
+.buyer ul li.quote.b-1::before,
+.buyer ul li.quote.b-2::before {
+    content: '';
+    display: inline-block;
+    border-top: 19px transparent solid;
+    border-bottom: 19px transparent solid;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 0;
+    border-right: 25px #f7f7f7 solid;
+    transform: translate3d(-24px,-50%,0);
+}
+
+.buyer ul li.quote.b-3::after,
+.buyer ul li.quote.b-4::after {
+    content: '';
+    display: inline-block;
+    border-top: 19px transparent solid;
+    border-bottom: 19px transparent solid;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    right: 0;
+    border-left: 25px #f7f7f7 solid;
+    transform: translate3d(24px,-50%,0);
+}
+
 .buyer-1 {
     background-image: url('../img/buyer-1.jpg');
 }
