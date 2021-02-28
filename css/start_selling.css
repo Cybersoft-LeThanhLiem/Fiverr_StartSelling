@@ -23,6 +23,12 @@ a:hover {
     background-color: #3fca89;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 /* HEADER */
 
 header {
@@ -291,3 +297,45 @@ header #join:hover {
     font-size: 12px;
 }
 
+/* BUYER */
+
+.buyer ul li {
+    width: 25%;
+    height: 289px;
+}
+
+.buyer .quote {
+    position: relative;
+    background-color: #f7f7f7;
+}
+
+.buyer cite {
+    display: block;
+    font: normal 14px/140% "Macan","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-top: 25px;
+}
+
+.buyer ul li blockquote {
+    position: absolute;
+    font: italic 18px/140% Georgia,'Times New Roman',serif;
+    color: #62646a;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 15px;
+}
+
+.buyer-1 {
+    background-image: url('../img/buyer-1.jpg');
+}
+
+.buyer-2 {
+    background-image: url('../img/buyer-2.jpg');
+}
+
+.buyer-3 {
+    background-image: url('../img/buyer-3.jpg');
+}
+
+.buyer-4 {
+    background-image: url('../img/buyer-4.jpg');
+}
