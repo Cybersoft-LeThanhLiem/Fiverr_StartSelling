@@ -367,3 +367,21 @@ header #join:hover {
 .buyer-4 {
     background-image: url('../img/buyer-4.jpg');
 }
+
+/* QA */
+
+.qa {
+    background-color:#f7f7f7;
+}
+
+.qa .card {
+    margin-bottom: 1rem;
+}
+
+.qa .card-header {
+    background-color: #fff;
+}
+
+.qa .btn:focus {
+    box-shadow: none;
+}
