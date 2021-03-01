@@ -385,3 +385,19 @@ header #join:hover {
 .qa .btn:focus {
     box-shadow: none;
 }
+
+.qa .card-header .btn::after {
+    content: '\f078';
+    font-family: "Font Awesome 5 Free";
+    float: right;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.qa .card-header .btn.active::after {
+    content: '\f077';
+    font-family: "Font Awesome 5 Free";
+    float: right;
+    font-size: 14px;
+    font-weight: 900;
+}
