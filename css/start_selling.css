@@ -420,3 +420,9 @@ header #join:hover {
         max-width: 48.5%;
     }
 }
+
+/* GET STARTED */
+
+.start p {
+    font-size: 1.22rem;
+}
