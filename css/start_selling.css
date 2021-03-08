@@ -29,6 +29,12 @@ ul {
     padding: 0;
 }
 
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1180px;
+    }
+}
+
 /* HEADER */
 
 header {
@@ -376,6 +382,7 @@ header #join:hover {
 
 .qa .card {
     margin-bottom: 1rem;
+    border: none;
 }
 
 .qa .card-header {
@@ -400,4 +407,16 @@ header #join:hover {
     float: right;
     font-size: 14px;
     font-weight: 900;
+}
+
+.qa .card-header .btn {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+@media (min-width: 992px) {
+    .qa .col-lg-6 {
+        flex: 0 0 48.5%;
+        max-width: 48.5%;
+    }
 }
