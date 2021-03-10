@@ -477,3 +477,48 @@ footer a {
 .footer__right .setting-buttons a {
     padding: 8px 12px;
 }
+
+/* SIGN-UP */
+
+#sign-up .modal-dialog {
+    max-width: 400px;
+}
+
+#sign-up .modal-body {
+    padding: 0 45px 24px;
+}
+
+#sign-up .modal-header {
+    border-bottom: none;
+}
+
+#sign-up .facebook-sign {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    background: #4267b2;
+    border: 1px solid #4267b2;
+    border-radius: 4px;
+    padding: 10px 30px 10px 16px;
+}
+
+#sign-up .google-sign {
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    border: 1px solid #e4e5e7;
+    border-radius: 4px;
+    padding: 10px 30px 10px 16px;
+    margin: 12px 0;
+    color: #7a7d85;
+}
+
+#sign-up .apple-sign {
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    border: 1px solid #e4e5e7;
+    border-radius: 4px;
+    padding: 10px 30px 10px 16px;
+    color: #7a7d85;
+}
