@@ -443,10 +443,17 @@ header #join:hover {
 .qa .card {
     margin-bottom: 1rem;
     border: none;
+    border-left: 5px transparent solid;
+    transition: border-color, .3s;
+}
+
+.qa .card:hover {
+    border-color: #1dbf73;
 }
 
 .qa .card-header {
     background-color: #fff;
+    border-bottom: none;
 }
 
 .qa .btn:focus {
