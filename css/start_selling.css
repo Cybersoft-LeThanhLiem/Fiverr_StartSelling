@@ -182,6 +182,10 @@ header #join:hover {
     margin: 0 2% 2% 0;
 }
 
+.community__item:not(.cta) {
+    filter: brightness(0.9);
+}
+
 .community__item h6 {
     font-size: 24px;
     line-height: 25px;
