@@ -172,10 +172,14 @@ header #join:hover {
 /* COMMUNITY */
 
 .community__item {
+    position: relative;
     height: 305px;
     background-position: 50% 50%;
     background-size: cover;
     cursor: pointer;
+    padding: 0;
+    width: 23.5%;
+    margin: 0 2% 2% 0;
 }
 
 .community__item h6 {
@@ -204,6 +208,7 @@ header #join:hover {
 
 .community__item.video-editor {
     background-image: url('../img/video-editor.jpg');
+    margin-right: 0;
 }
 
 .community__item.musician {
@@ -216,6 +221,11 @@ header #join:hover {
 
 .community__item.marketer {
     background-image: url('../img/marketer.png');
+}
+
+.community__item.cta {
+    margin-right: 0;
+    background-color: #eee;
 }
 
 .community__item.cta div {
@@ -243,6 +253,8 @@ header #join:hover {
 
 .how h3 {
     color: #555;
+    font-weight: 700;
+    font-size: 22px;
 }
 
 .how h3::before {
