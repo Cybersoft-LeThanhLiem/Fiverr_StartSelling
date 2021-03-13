@@ -87,7 +87,7 @@
         <div class="hero__caption text-center text-white">
             <h1>Work Your Way</h1>
             <h4>You bring the skill. We'll make earning easy.</h4>
-            <a class="btn-standard" href="#">Become a Seller</a>
+            <a class="btn-standard" href="#" data-toggle="modal" data-target="#sign-up">Become a Seller</a>
         </div>
 
         <aside class="hero__stats w-100">
@@ -113,10 +113,10 @@
     </section>
 
     <div class="modal fade" id="sign-up" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content text-center">
-                <div class="modal-header d-block">
-                    <h4 class="modal-title">Join Fiverr</h4>
+                <div class="modal-header d-block pt-4 pb-5">
+                    <h4 class="modal-title font-weight-bold">Join Fiverr</h4>
                 </div>
                 <div class="modal-body d-flex flex-column">
                     <button class="btn facebook-sign">
@@ -165,9 +165,22 @@
                         </span>
                         <span>Continue with Apple</span>
                     </button>
+                    <div class="form-seperator">
+                        <span>OR</span>
+                    </div>
+                    <form class="email-form">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="" placeholder="Enter your email">
+                        </div>
+                        <button type="button" class="btn-standard w-100">Continue</button>
+                        <p>By joining I agree to receive emails from Fiverr.</p>
+                    </form>
                 </div>
-                <div class="modal-footer">
-
+                <div class="modal-footer justify-content-center">
+                    <p class="text-center">
+                        <span>Already a member?</span>
+                        <a href="">Sign In</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -203,7 +216,7 @@
                 <div class="col-lg-3 community__item cta">
                     <div>
                         <h3>What's <br> Your Skill ?</h3>
-                        <a class="btn-standard" href="#">Become a Seller</a>
+                        <a class="btn-standard" href="#" data-toggle="modal" data-target="#sign-up">Become a Seller</a>
                     </div>
                 </div>
             </div>
@@ -421,7 +434,7 @@
     <section class="start">
         <div class="container text-center py-5">
             <p>Sign up and create your first Gig today</p>
-            <a href="" class="btn-standard mt-2">Get Started</a>
+            <a href="#" class="btn-standard mt-2" data-toggle="modal" data-target="#sign-up">Get Started</a>
         </div>
     </section>
 
