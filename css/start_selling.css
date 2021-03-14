@@ -91,6 +91,7 @@ header .search-bar {
 header .search-bar .fa-search {
     position: absolute;
     left: 8px;
+    top: 10px;
 }
 
 header .search-bar input {
@@ -197,6 +198,28 @@ header #join:hover {
     text-transform: uppercase;
 }
 
+@media (max-width: 768px) {
+    .hero aside.hero__stats {
+        display: none;
+    }
+
+    .hero__caption {
+        width: 80%;
+    }
+
+    .hero__caption h1 {
+        font-size: 30px;
+    }
+
+    .hero__caption h4 {
+        font-size: 18px;
+    }
+
+    .hero__caption a.btn-standard {
+        font-size: 16px;
+    }
+}
+
 /* COMMUNITY */
 
 .community__item {
@@ -275,6 +298,17 @@ header #join:hover {
     width: 50px;
     height: 36px;
     margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .community__item {
+        width: 100%;
+        margin: 3px 0;
+    }
+
+    .community h2 {
+        font-size: 30px;
+    }
 }
 
 /* HOW-IT-WORKS */
@@ -391,6 +425,17 @@ header #join:hover {
     font-size: 12px;
 }
 
+@media (max-width: 768px) {
+    .education h2 {
+        font-size: 25px;
+    }
+
+    .education a.btn-standard {
+        width: 100%;
+        text-align: center;
+    }
+}
+
 /* BUYER */
 
 .buyer ul li {
@@ -448,18 +493,37 @@ header #join:hover {
 
 .buyer-1 {
     background-image: url('../img/buyer-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .buyer-2 {
     background-image: url('../img/buyer-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .buyer-3 {
     background-image: url('../img/buyer-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .buyer-4 {
     background-image: url('../img/buyer-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .buyer ul li {
+        width: 100%;
+    }
+
+    .buyer ul li.quote.b-3::after, 
+    .buyer ul li.quote.b-4::after {
+        display: none;
+    }
 }
 
 /* QA */
