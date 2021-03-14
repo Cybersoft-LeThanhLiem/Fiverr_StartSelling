@@ -430,9 +430,17 @@ header #join:hover {
         font-size: 25px;
     }
 
+    .education .container {
+        padding: 1rem 10px !important;
+    }
+
     .education a.btn-standard {
         width: 100%;
         text-align: center;
+    }
+
+    .education .education__video .description-title h5 {
+        font-size: 18px;
     }
 }
 
@@ -523,6 +531,10 @@ header #join:hover {
     .buyer ul li.quote.b-3::after, 
     .buyer ul li.quote.b-4::after {
         display: none;
+    }
+
+    .buyer ul li.quote {
+        height: 200px;
     }
 }
 
